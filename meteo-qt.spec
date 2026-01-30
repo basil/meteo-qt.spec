@@ -1,5 +1,5 @@
 Name:           meteo-qt
-Version:        4.2
+Version:        4.3
 Release:        1%{?dist}
 Summary:        Weather status system tray application
 License:        GPL-3.0-or-later
@@ -62,5 +62,5 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{name}.desktop
 %{_datadir}/meteo_qt/translations/*.qm
 
 %changelog
-* Wed Dec 31 2025 Basil Crow <me@basilcrow.com> - 4.2-1
+* Fri Dec 30 2026 Basil Crow <me@basilcrow.com> - 4.3-1
 - Initial packaging.
